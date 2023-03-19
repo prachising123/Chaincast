@@ -1,0 +1,204 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(227, 227, 215);
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    margin-top:100px;
+    width: 930px;
+    height: 630px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: rgb(241, 232, 221);
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+.navbar h1{
+    margin: 20px;
+    margin-left: 30px;
+}
+.box1{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.box hr{
+    margin-top: -10px;
+}
+.A1{
+    display: flex;
+    width: 450px;
+    height: 350px;
+    display: flex;
+    background-image:url(imgs/main-img.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+    margin-left: 50px;
+}
+.A1 p:first-child{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 40px;
+    color: rgb(133, 130, 130);
+}
+.A1 p:last-child{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: rgb(133, 130, 130);
+}
+.Main{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(136,96,45,0.9332983193277311) 35%);
+    width: 200px;
+    height: 200px;
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 60px;
+    /* border: 2px solid greenyellow; */
+}
+.Main p{
+    margin: 15px;
+    color:rgb(195, 190, 190);
+}
+.Main h3{
+    margin-left: 20px;
+    margin-top: -10px;
+}
+.A2{
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 120px;
+    /* background-image: url(img/circle.png); */
+    background-size: cover;
+    background-color: linear-gradient(to right,rgb(165, 101, 42) ,beige);
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 20px 20px;
+    margin-top:33px;
+    margin-left: 80px;
+    background-blend-mode: luminosity;
+    align-items: center;
+}
+.A3{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 200px;
+    background-image: url(./imgs/Untitled\ design.png);
+    opacity: 1px;
+    margin-left: 40px;
+    background-size: cover;
+    border-radius: 20px 20px 20px 20px;
+}
+.A3 p{
+    margin: 10px;
+    color:rgb(58, 56, 56);
+}
+.A3 h6{
+    margin-top:10px ;
+    margin-left: 10px;
+}
+.A3 h3{
+    margin-left: 10px;
+}
+.A3 i{
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 30px;
+}
+.text-part{
+    width: 550px;
+    height: 100px;
+    display: flex;
+    margin-top: 240px;
+    margin-left: -170px;
+    font-family: 'Poppins', sans-serif;
+    /* border: 2px solid black; */
+}
+.text-imgs{
+    display: flex;
+}
+.text-imgs img{
+    width: 45px;
+    height: 45px;
+    border-radius: 20px;
+}
+.text-imgs img:first-child{
+    margin-left: 20px;
+}
+.text-imgs img:last-child{
+   position: absolute;
+    left: 930px;
+}
+.text-part h2{
+    font-size: 36px;
+    margin-left: -250px;
+}
+.h2 h2{
+    font-size: 36px;
+    margin-top: 50px;
+    margin-right: -80px;
+}
+.span{
+  margin-top: 354px;
+  display: flex;
+}
+.span button:first-child{
+    width: 320px;
+    height: 42px;
+    border-radius: 10px;
+    margin-left: -520px;
+    background-color: black;
+    color: rgb(199, 199, 141);
+}
+.span button:last-child{
+    width: 60px;
+    height: 42px;
+    border-radius: 5px 10px 10px 5px;
+    background-color: rgb(232, 200, 152);
+}
+.span button i{
+    font-weight: bold;
+    font-size: 20px;
+}
+.h1 h1{
+    margin-top: 430px;
+    margin-left: -924px;
+    text-align: center;
+    font-size: 50px;
+    background: transparent;
+}
