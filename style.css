@@ -101,15 +101,15 @@
 .A2{
     display: flex;
     flex-direction: column;
-    width: 120px;
-    height: 120px;
+    width: 180px;
+    height: 140px;
     /* background-image: url(img/circle.png); */
     background-size: cover;
     background-color: linear-gradient(to right,rgb(165, 101, 42) ,beige);
     background-repeat: no-repeat;
     border-radius: 20px 20px 20px 20px;
-    margin-top:33px;
-    margin-left: 80px;
+    margin-left: 30px;
+    margin-top: -10px;
     background-blend-mode: luminosity;
     align-items: center;
 }
